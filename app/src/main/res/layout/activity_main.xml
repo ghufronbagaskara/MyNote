@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <SearchView
-        android:id="@+id/searchView"
+        android:id="@+id/svSearch"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_margin="16dp"
@@ -30,7 +30,7 @@
         tools:listitem="@layout/list_item"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
+        android:id="@+id/flaAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="26dp"

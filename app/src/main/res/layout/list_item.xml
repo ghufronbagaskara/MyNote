@@ -25,9 +25,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="8dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
                 android:text="Title"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
         </RelativeLayout>
 
@@ -37,6 +43,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:text="Note"
+            android:maxLines="10"
+            android:padding="8dp"
+            android:textStyle="normal"
+            android:inputType="textPersonName"
             android:textColor="@color/black"
             android:textSize="14sp" />
 
@@ -46,7 +56,14 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:text="Date"
-            android:textColor="@color/black"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:textStyle="normal"
+            android:maxLines="10"
+            android:padding="8dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/grey"
             android:textSize="10sp" />
 
     </LinearLayout>

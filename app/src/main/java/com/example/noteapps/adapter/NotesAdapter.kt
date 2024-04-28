@@ -7,10 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
-import androidx.lifecycle.viewmodel.savedstate.R
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.noteapps.databinding.ListItemBinding
 import com.example.noteapps.model.Note
 import kotlin.random.Random
 

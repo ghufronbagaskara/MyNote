@@ -33,15 +33,17 @@ androidx-roomRuntime = { group = "androidx.room", name = "room-runtime", version
 androidx-roomCompiler = { group = "androidx.room", name = "room-compiler", version.ref = "room"}
 
 # lifecycle
-androidx-lifecycleViewmodel = {group = "androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "lifecycle"}
+androidx-lifecycleViewmodel = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle"}
 androidx-lifecycleRuntime = {group = "androidx.lifecycle", name = "lifecycle-runtime", version.ref = "lifecycle"}
 
 # coroutines
 kotlinx-coroutinAndroid = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines"}
 
 
+
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = {id = "com.android.library", version.ref = "agp"}
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 googleDevToolsKsp = { id = "com.google.devtools.ksp", version.ref = "ksp-plugin"}
 
